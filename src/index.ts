@@ -1,3 +1,4 @@
+// Compromised XRP Package
 export { Client, ClientOptions } from './client'
 
 export * from './models'
