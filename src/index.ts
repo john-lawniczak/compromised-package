@@ -1,3 +1,4 @@
+// Example 1
 export { Client, ClientOptions } from './client'
 
 export * from './models'
